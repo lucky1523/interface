@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+      <ImageView
+        android:id="@+id/barraRestaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/barraRestaurantes" />
+
+
+      <ImageView
+        android:id="@+id/burger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/hamburguesaImagen" />
+
+        <ImageView
+            android:id="@+id/burgerKing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/burgerKing" />
+
+        <ImageView
+            android:id="@+id/theCarrotTree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/theCarrotTree" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="355dp"
+            android:layout_marginRight="100dp"
+            app:srcCompat="@android:drawable/ic_menu_help" />
+
+        <ImageView
+            android:id="@+id/flecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/flecha" />
+
+        <ImageView
+            android:id="@+id/pedidosYa"
+            android:layout_width="97dp"
+            android:layout_height="88dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="25dp"
+            app:srcCompat="@drawable/pedidosYa" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
