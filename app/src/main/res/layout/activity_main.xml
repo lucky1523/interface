@@ -55,7 +55,7 @@
             android:layout_width="97dp"
             android:layout_height="88dp"
             android:layout_alignParentRight="true"
-            android:layout_margin="25dp"
+            android:layout_margin="26dp"
             app:srcCompat="@drawable/pedidosYa" />
 
 
